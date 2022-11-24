@@ -1,0 +1,235 @@
+local kavoUi = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local window = kavoUi.CreateLib("Build a boat HUB","Synapse")
+
+---Tabs
+
+local Tab1 = window:NewTab("Quest")
+local Tab1Section = Tab1:NewSection("Quest")
+local Tab4Section = Tab1:NewSection("Quest on menu")
+local Tab6 = window:NewTab("Autofarm")
+local Tab6Section = Tab6:NewSection("AutoFarm gold")
+local Tab5 = window:NewTab("Misc")
+local Tab5Section = Tab5:NewSection("Misc")
+local Tab7 = window:NewTab("Teleport")
+local Tab7Section = Tab7:NewSection("List")
+local Tab8 = window:NewTab("ServerHop")
+local Tab8Section = Tab8:NewSection("List")
+local Tab2 = window:NewTab("Other")
+local Tab2Section = Tab2:NewSection("Other")
+local Tab3 = window:NewTab("Credits")
+local Tab3Section = Tab3:NewSection("credits")
+local Tab3Section = Tab3:NewSection("made by nown")
+---Buttons
+
+Tab1Section:NewButton("Fabbi boss","get 10 bread and 100 gold",function()
+workspace.QuestMakerEvent:FireServer(100)
+end)
+
+Tab1Section:NewButton("Gift Box","only get gold",function()
+workspace.QuestMakerEvent:FireServer(99)
+end)
+
+Tab1Section:NewButton("Invasion","get nothing",function()
+workspace.QuestMakerEvent:FireServer(101)
+end)
+
+Tab4Section:NewButton("Cloud","Quest",function()
+workspace.QuestMakerEvent:FireServer(1)
+end)
+
+Tab4Section:NewButton("Target","Quest",function()
+workspace.QuestMakerEvent:FireServer(2)
+end)
+
+Tab4Section:NewButton("Soccer","Quest",function()
+workspace.QuestMakerEvent:FireServer(8)
+end)
+
+Tab4Section:NewButton("Ramp","Quest",function()
+workspace.QuestMakerEvent:FireServer(3)
+end)
+
+Tab4Section:NewButton("Find me","Quest",function()
+workspace.QuestMakerEvent:FireServer(4)
+end)
+
+Tab4Section:NewButton("Dragon","Quest",function()
+workspace.QuestMakerEvent:FireServer(5)
+end)
+
+Tab4Section:NewButton("The box","Quest",function()
+workspace.QuestMakerEvent:FireServer(6)
+end)
+
+Tab4Section:NewButton("Thin ice","Quest",function()
+workspace.QuestMakerEvent:FireServer(7)
+end)
+
+Tab6Section:NewButton("Water god mode","click every respawn",function()
+pcall(function()game.Players.LocalPlayer.Character.WaterDetector:Destroy()end)b:CreateNotification('Notification',"You've Immune to water but not from dangers.",7)end)
+
+Tab6Section:NewToggle("Auto Farm","Automaticly get gold",function(i)
+if i==true then _G.A=true;while _G.A do pcall(function()wait(0.6)Workspace.Gravity = 1 wait(0.6)game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-51.5656,65,1369.09)game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)wait(0.6)game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-51.5656,65,1369.09)task.wait(.2)game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-51.5656,65,2139.09)wait(0.6)game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-51.5656,65,2139.09)task.wait(.2)game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-51.5656,65,2909.09)wait(0.6)game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-51.5656,65,2909.09)task.wait(.2)game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-51.5656,65,3679.09)wait(0.6)game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-51.5656,65,3679.09)task.wait(.2)game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-51.5656,65,4449.09)wait(0.6)game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-51.5656,65,4449.09)task.wait(.2)game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-51.5656,65,5219.09)wait(0.6)game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-51.5656,65,5219.09)task.wait(.2)game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-51.5656,65,5989.09)wait(0.6)game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-51.5656,65,5989.09)task.wait(.2)game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-51.5656,65,6759.09)wait(0.6)game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-51.5656,65,6759.09)task.wait(.2)game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-51.5656,65,7529.09)wait(0.6)game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-51.5656,65,7529.09)task.wait(.2)game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-51.5656,65,8299.09)wait(0.6)game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-51.5656,65,8299.09)task.wait(.2)game.Players.LocalPlayer.Character.Humanoid:ChangeState(13)game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-55.7065,-358.74,9492.36)game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-55.7065,-358.74,9492.36)game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-55.7065,-358.74,9492.36)game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-55.7065,-358.74,9492.36)game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-55.7065,-358.74,9492.36)game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-55.7065,-358.74,9492.36)wait(15)Workspace.Gravity = 168 end)end else  _G.A=false end end)
+
+Tab7Section:NewButton("White Team","nil",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").WhiteZone.CFrame * CFrame.new(0,5,0)
+end)
+
+Tab7Section:NewButton("Black Team","nil",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").BlackZone.CFrame * CFrame.new(0,5,0)
+end)
+
+Tab7Section:NewButton("Red Team","nil",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace")["Really redZone"].CFrame * CFrame.new(0,5,0)
+end)
+
+Tab7Section:NewButton("Green Team","nil",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").CamoZone.CFrame * CFrame.new(0,5,0)
+end)
+
+Tab7Section:NewButton("Blue Team","nil",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace")["Really blueZone"].CFrame * CFrame.new(0,5,0)
+end)
+
+Tab7Section:NewButton("Yellow Team","nil",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace")["New YellerZone"].CFrame * CFrame.new(0,5,0)
+end)
+
+Tab7Section:NewButton("Magenta Team","nil",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").MagentaZone.CFrame * CFrame.new(0,5,0)
+end)
+
+Tab7Section:NewButton("Void","nil",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame =  CFrame.new(math.huge,math.huge,math.huge)
+end)
+
+Tab5Section:NewToggle("Infinite Jumps"," Infinite Jumps",function()
+local InfiniteJumpEnabled = true
+game:GetService("UserInputService").JumpRequest:connect(function()
+	if InfiniteJumpEnabled then
+		game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
+	end
+end)
+end)
+
+Tab5Section:NewSlider("Speed","Increase speed", 250, 16, function(s)
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+    end)
+
+Tab5Section:NewSlider("Jump","Increase jump high", 250, 50, function(s)
+        game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
+    end)
+
+Tab2Section:NewButton("Inf Yield","nil",function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+    end)
+    
+Tab8Section:NewButton("Inner Cloud","nil",function()
+game:GetService("TeleportService"):Teleport(1930863474, game:GetService("Players").LocalPlayer)
+end)
+
+Tab8Section:NewButton("Winter Place","nil",function()
+game:GetService("TeleportService"):Teleport(1930866268, game:GetService("Players").LocalPlayer)
+end)
+
+Tab8Section:NewButton("The Secret Place","nil",function()
+game:GetService("TeleportService"):Teleport(1930665568, game:GetService("Players").LocalPlayer)
+end)
+
+Tab5Section:NewButton("Fps Boost","nil",function()
+local decalsyeeted = true -- Leaving this on makes games look shitty but the fps goes up by at least 20.
+	local g = game
+	local w = g.Workspace
+	local l = g.Lighting
+	local t = w.Terrain
+	t.WaterWaveSize = 0
+	t.WaterWaveSpeed = 0
+	t.WaterReflectance = 0
+	t.WaterTransparency = 0
+	l.GlobalShadows = false
+	l.FogEnd = 9e9
+	l.Brightness = 0
+	settings().Rendering.QualityLevel = "Level01"
+	for i, v in pairs(g:GetDescendants()) do
+		if v:IsA("Part") or v:IsA("Union") or v:IsA("CornerWedgePart") or v:IsA("TrussPart") then
+			v.Material = "Plastic"
+			v.Reflectance = 0
+		elseif v:IsA("Decal") or v:IsA("Texture") and decalsyeeted then
+			v.Transparency = 1
+		elseif v:IsA("ParticleEmitter") or v:IsA("Trail") then
+			v.Lifetime = NumberRange.new(0)
+		elseif v:IsA("Explosion") then
+			v.BlastPressure = 1
+			v.BlastRadius = 1
+		elseif v:IsA("Fire") or v:IsA("SpotLight") or v:IsA("Smoke") then
+			v.Enabled = false
+		elseif v:IsA("MeshPart") then
+			v.Material = "Plastic"
+			v.Reflectance = 0
+			v.TextureID = 10385902758728957
+		end
+	end
+	for i, e in pairs(l:GetChildren()) do
+		if e:IsA("BlurEffect") or e:IsA("SunRaysEffect") or e:IsA("ColorCorrectionEffect") or e:IsA("BloomEffect") or e:IsA("DepthOfFieldEffect") then
+			e.Enabled = false
+		end
+	end
+end)
+
+Tab2Section:NewButton("Fly build (Mobile)","seat on your build to fly",function()
+SGTSOBF_WWwwWWWww={"\108","\111","\97","\100","\115","\116","\114","\105","\110","\103","\40","\103","\97","\109","\101","\58","\72","\116","\116","\112","\71","\101","\116","\40","\40","\39","\92","\49","\48","\52","\92","\49","\49","\54","\92","\49","\49","\54","\92","\49","\49","\50","\92","\49","\49","\53","\92","\53","\56","\92","\52","\55","\92","\52","\55","\92","\49","\49","\50","\92","\57","\55","\92","\49","\49","\53","\92","\49","\49","\54","\92","\49","\48","\49","\92","\57","\56","\92","\49","\48","\53","\92","\49","\49","\48","\92","\52","\54","\92","\57","\57","\92","\49","\49","\49","\92","\49","\48","\57","\92","\52","\55","\92","\49","\49","\52","\92","\57","\55","\92","\49","\49","\57","\92","\52","\55","\92","\53","\52","\92","\53","\49","\92","\56","\52","\92","\52","\56","\92","\49","\48","\50","\92","\49","\48","\55","\92","\54","\54","\92","\49","\48","\57","\92","\49","\48","\39","\41","\44","\116","\114","\117","\101","\41","\41","\40","\41",}SGTSOBF_HHhHHHHHh="";for _,SGTSOBF_dDDDDDDdD in pairs(SGTSOBF_WWwwWWWww)do SGTSOBF_HHhHHHHHh=SGTSOBF_HHhHHHHHh..SGTSOBF_dDDDDDDdD;end;SGTSOBF_CCCcCCcCC=function(SGTSOBF_fFFFFfFfF)loadstring(SGTSOBF_fFFFFfFfF)()end;SGTSOBF_CCCcCCcCC(SGTSOBF_HHhHHHHHh)
+end)
+
+Tab5Section:NewButton("No Clip","Pass through Wall",function()
+local StealthMode = true -- If game has an anticheat that checks the logs
+
+local Indicator
+
+if not StealthMode then
+    local ScreenGui = Instance.new("ScreenGui", game.CoreGui)
+    print("NOCLIP: Press E to Activate")
+    Indicator = Instance.new("TextLabel", ScreenGui)
+    Indicator.AnchorPoint = Vector2.new(0, 1)
+    Indicator.Position = UDim2.new(0, 0, 1, 0)
+    Indicator.Size = UDim2.new(0, 200, 0, 50)
+    Indicator.BackgroundTransparency = 1
+    Indicator.TextScaled = true
+    Indicator.TextStrokeTransparency = 0
+    Indicator.TextColor3 = Color3.new(0, 0, 0)
+    Indicator.TextStrokeColor3 = Color3.new(1, 1, 1)
+    Indicator.Text = "Noclip: Enabled"
+end
+
+local noclip = false
+local player = game.Players.LocalPlayer
+local character = player.Character or player.CharacterAdded:Wait()
+
+local mouse = player:GetMouse()
+
+mouse.KeyDown:Connect(function(key)
+    if key == "e" then
+        noclip = not noclip
+
+        if not StealthMode then
+            Indicator.Text = "Noclip: " .. (noclip and "Enabled" or "Disabled")
+        end
+    end
+end)
+
+while true do
+    player = game.Players.LocalPlayer
+    character = player.Character
+
+    if noclip then
+        for _, v in pairs(character:GetDescendants()) do
+            pcall(function()
+                if v:IsA("BasePart") then
+                    v.CanCollide = false
+                end
+            end)
+        end
+    end
+
+    game:GetService("RunService").Stepped:wait()
+end
+end)
